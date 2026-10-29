@@ -1,0 +1,66 @@
+{
+  "code": 0,
+  "message": "success",
+  "result": [
+    {
+      "hltvId": 9565,
+      "rank": 1,
+      "score": 1986,
+      "teamName": "Vitality"
+    },
+    {
+      "hltvId": 4494,
+      "rank": 2,
+      "score": 1962,
+      "teamName": "MOUZ"
+    },
+    {
+      "hltvId": 11861,
+      "rank": 3,
+      "score": 1892,
+      "teamName": "Aurora"
+    },
+    {
+      "hltvId": 8297,
+      "rank": 4,
+      "score": 1883,
+      "teamName": "FURIA"
+    },
+    {
+      "hltvId": 7020,
+      "rank": 5,
+      "score": 1877,
+      "teamName": "Spirit"
+    },
+    {
+      "hltvId": 12394,
+      "rank": 6,
+      "score": 1824,
+      "teamName": "BB"
+    },
+    {
+      "hltvId": 11283,
+      "rank": 7,
+      "score": 1808,
+      "teamName": "Falcons"
+    },
+    {
+      "hltvId": 13286,
+      "rank": 8,
+      "score": 1782,
+      "teamName": "FUT"
+    },
+    {
+      "hltvId": 12468,
+      "rank": 9,
+      "score": 1693,
+      "teamName": "Legacy"
+    },
+    {
+      "hltvId": 5995,
+      "rank": 10,
+      "score": 1648,
+      "teamName": "G2"
+    }
+  ]
+}

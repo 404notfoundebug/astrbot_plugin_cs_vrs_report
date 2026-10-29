@@ -1,0 +1,71 @@
+{
+  "enabled": {
+    "description": "启用自动群播报",
+    "type": "bool",
+    "default": false,
+    "hint": "首次成功检查只建立基线；请先填写群聊 UMO。"
+  },
+  "target_umos": {
+    "description": "接收播报的群聊 UMO",
+    "type": "list",
+    "default": [],
+    "hint": "每项一个完整群聊 UMO，例如 qq-snowluma:GroupMessage:123456789。在目标群发送 AstrBot 内置 /sid 获取，以实际返回值为准；不要只填群号。只接受群聊 UMO。"
+  },
+  "source": {
+    "description": "数据源模式",
+    "type": "string",
+    "default": "auto",
+    "options": [
+      "auto",
+      "perfectworld",
+      "hltv"
+    ],
+    "hint": "auto：完美世界优先，HLTV 备用；perfectworld：仅完美世界；hltv：仅 HLTV。403/429 时退避，不绕过验证码。"
+  },
+  "poll_seconds": {
+    "description": "检查间隔（秒）",
+    "type": "int",
+    "default": 300,
+    "hint": "最低120秒。默认5分钟，适合2核2G服务器。"
+  },
+  "settle_minutes": {
+    "description": "比赛结束后等待统计完善（分钟）",
+    "type": "int",
+    "default": 5
+  },
+  "lookback_hours": {
+    "description": "新比赛结束时间回看范围（小时）",
+    "type": "int",
+    "default": 24,
+    "hint": "赛程读取北京时间今天和昨天；只处理范围内的新赛果。"
+  },
+  "stats_wait_hours": {
+    "description": "选手统计缺失时最长等待（小时）",
+    "type": "int",
+    "default": 6,
+    "hint": "缺失时保留待播报，超时不编造或补发残缺数据。"
+  },
+  "max_reports_per_poll": {
+    "description": "每轮最多发送条数",
+    "type": "int",
+    "default": 3
+  },
+  "ai_review": {
+    "description": "使用已配置模型生成大肥鱼点评",
+    "type": "bool",
+    "default": true,
+    "hint": "每场点评会消耗模型额度；失败时使用基于数据的简评。相同比赛/模型会缓存点评。"
+  },
+  "provider_id": {
+    "description": "点评模型提供商 ID（留空沿用群会话）",
+    "type": "string",
+    "default": "",
+    "hint": "例如 deepseek/deepseek-flash；无需在此填写 API Key。"
+  },
+  "review_persona": {
+    "description": "点评人格（留空使用傲娇大肥鱼）",
+    "type": "text",
+    "default": "",
+    "hint": "系统默认要求：1至3句，只依据比分与选手统计，不编造关键回合或战术。"
+  }
+}

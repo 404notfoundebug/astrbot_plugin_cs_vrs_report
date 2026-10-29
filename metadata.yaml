@@ -1,0 +1,7 @@
+name: astrbot_plugin_cs_vrs_report
+display_name: 大肥鱼 CS2 赛果与预测
+desc: 完美世界优先的 CS2 赛果分析、选手 Rating/K-D、历史交锋胜率与 VRS 全球前15排名，支持 AI 点评及群聊自动播报。
+version: v0.1.0
+author: 404notfoundebug
+repo: https://github.com/404notfoundebug/astrbot_plugin_cs_vrs_report
+astrbot_version: ">=4.5.7"

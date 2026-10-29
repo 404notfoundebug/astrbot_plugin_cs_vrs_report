@@ -1,0 +1,119 @@
+{
+  "code": 0,
+  "result": {
+    "matchResponse": {
+      "dtoList": [
+        {
+          "matchId": 2399751,
+          "status": 3,
+          "score1": 1,
+          "score2": 2,
+          "team1Id": 7020,
+          "team2Id": 4608,
+          "endTime": 1793212656000,
+          "startTime": 1793203200000,
+          "csgoEventDTO": {
+            "name": "PGL Masters Bucharest 2026",
+            "nameZh": "PGL布加勒斯特大师赛-2026"
+          },
+          "team1DTO": {
+            "name": "Spirit",
+            "teamId": 7020
+          },
+          "team2DTO": {
+            "name": "Natus Vincere",
+            "teamId": 4608
+          }
+        },
+        {
+          "matchId": 2399752,
+          "status": 1,
+          "score1": 0,
+          "score2": 0,
+          "team1Id": 13286,
+          "team2Id": 7969,
+          "endTime": null,
+          "startTime": 1793260800000,
+          "csgoEventDTO": {
+            "name": "PGL Masters Bucharest 2026",
+            "nameZh": "PGL布加勒斯特大师赛-2026"
+          },
+          "team1DTO": {
+            "name": "FUT",
+            "teamId": 13286
+          },
+          "team2DTO": {
+            "name": "Nemiga",
+            "teamId": 7969
+          }
+        },
+        {
+          "matchId": 2399753,
+          "status": 2,
+          "score1": 0,
+          "score2": 0,
+          "team1Id": 9565,
+          "team2Id": 4608,
+          "endTime": null,
+          "startTime": 1793271600000,
+          "csgoEventDTO": {
+            "name": "PGL Masters Bucharest 2026",
+            "nameZh": "PGL布加勒斯特大师赛-2026"
+          },
+          "team1DTO": {
+            "name": "Vitality",
+            "teamId": 9565
+          },
+          "team2DTO": {
+            "name": "Natus Vincere",
+            "teamId": 4608
+          }
+        },
+        {
+          "matchId": 2399754,
+          "status": 2,
+          "score1": 0,
+          "score2": 0,
+          "team1Id": 11861,
+          "team2Id": 4494,
+          "endTime": null,
+          "startTime": 1793282400000,
+          "csgoEventDTO": {
+            "name": "PGL Masters Bucharest 2026",
+            "nameZh": "PGL布加勒斯特大师赛-2026"
+          },
+          "team1DTO": {
+            "name": "Aurora",
+            "teamId": 11861
+          },
+          "team2DTO": {
+            "name": "MOUZ",
+            "teamId": 4494
+          }
+        },
+        {
+          "matchId": 2399874,
+          "status": 3,
+          "score1": 1,
+          "score2": 2,
+          "team1Id": 6290,
+          "team2Id": 5991,
+          "endTime": 1793215634000,
+          "startTime": 1793205600000,
+          "csgoEventDTO": {
+            "name": "RLG Tesla Cup 2026",
+            "nameZh": "特斯拉杯-2026"
+          },
+          "team1DTO": {
+            "name": "Luminosity",
+            "teamId": 6290
+          },
+          "team2DTO": {
+            "name": "Envy",
+            "teamId": 5991
+          }
+        }
+      ]
+    }
+  }
+}
